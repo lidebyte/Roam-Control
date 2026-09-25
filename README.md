@@ -75,6 +75,9 @@ Only download Roam Control from the official GitHub repository. Unofficial mirro
 
 - [Installation](Documentation/Installation.md)
 - [User Guide](Documentation/UserGuide.md)
+- [Using a Personal VPN](Documentation/PersonalVPN.md)
+- [VPN Compatibility](Documentation/VPNCompatibility.md)
+- [Advanced: Self-hosted IKEv2 on Linux](Documentation/SelfHostedIKEv2.md)
 - [Current Release](Documentation/CurrentRelease.md)
 - [Release History](Documentation/ReleaseHistory.md)
 - [Privacy](Documentation/Privacy.md)

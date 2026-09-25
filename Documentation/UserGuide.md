@@ -64,6 +64,20 @@ When the iPhone is using 4G or 5G:
 
 Only startup needs this temporary change. After the secure location session is active, it can continue while mobile data is back on.
 
+## Using another VPN at the same time
+
+LocalDevVPN can remain connected while a separate VPN uses the **Personal VPN** section of iOS.
+
+This has been tested with several commercial VPN apps and with a self-hosted IKEv2 server.
+
+A separate internet VPN is optional and is not required for normal Roam Control use.
+
+See:
+
+- [Using a Personal VPN with Roam Control](PersonalVPN.md)
+- [VPN Compatibility](VPNCompatibility.md)
+- [Advanced: Self-hosted IKEv2 on Linux](SelfHostedIKEv2.md)
+
 ## Walking routes
 
 1. Choose a destination.
