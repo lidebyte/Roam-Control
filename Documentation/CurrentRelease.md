@@ -1,8 +1,22 @@
-# Roam Control 0.9.4
+# Roam Control 0.9.5
 
-Build 74, released 26 September 2026.
+Build 91, released 3 October 2026.
 
-Roam Control 0.9.4 is the current public release for testing an iPhone's reported location from a clean Apple Maps interface.
+> [!IMPORTANT]
+> **Upgrading from Roam Control 0.9.4? Back up before installing 0.9.5.**
+>
+> Roam Control 0.9.5 uses a new app identifier, so your existing 0.9.4 app data will **not automatically carry across**.
+>
+> Before installing 0.9.5, open Roam Control 0.9.4 and create a backup from **Settings > Backup & Restore** if you want to preserve your favourites, history and supported settings.
+>
+> After installing 0.9.5, choose **Restore Backup** during the migration flow.
+>
+> Pairing information is not included in backups, so this iPhone will need to be paired again.
+>
+> **If you install 0.9.5 without creating a backup first, Roam Control cannot automatically recover those items from the old app.**
+
+
+Roam Control 0.9.5 is a major update with a redesigned interface, Driving and Cycling modes, Joystick movement, smoother location simulation, GPX support, improved recovery and a dedicated migration path from 0.9.4.
 
 ## Before installing
 
@@ -15,55 +29,33 @@ Read the [installation guide](Installation.md), [privacy explanation](Privacy.md
 
 ## Download
 
-Download `RoamControl-0.9.4-build74.ipa` from the [Roam Control 0.9.4 release](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.4).
+Download `Roam-Control-0.9.5-Build-91.ipa` from the [Roam Control 0.9.5 release](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.5).
 
 SHA-256:
 
-`b55bf4bf6a509dd02731a6e4e97253724857a72cc31085571bd6eda1e5d0ad20`
+`c22bcb0998cb90e4c9e4f8c5fdd5f4483170656c6f1e98ba35d9daf9cbec304f`
 
 ## Highlights
 
-### Data and migration
+- Major visual redesign across the app.
+- Added Walking, Driving and Cycling route modes.
+- Added free movement with the new Joystick.
+- Added smoother simulated movement and improved map following.
+- Added GPX route import and export.
+- Added Miles/Kilometres route units and mph/km/h speed display.
+- Added the dedicated 0.9.4 migration and restore flow.
+- Improved pairing readiness, expiry recovery and interrupted-session recovery.
+- Redesigned Connection Health, Backup & Restore and Privacy Details.
+- Added the documented anonymous country-level install count.
+- Fixed future semantic-version update handling.
 
-- Added Backup & Restore for favourites, history and supported app preferences.
-- Backups can restore appearance, map style and location compatibility settings.
-- Added preparation for the one-time Roam Control 0.9.5 migration.
+## Migration from 0.9.4
 
-### Freehand routes and walking
+Roam Control 0.9.5 uses the new `com.roamcontrol` app identifier.
 
-- Added freehand route drawing alongside point-by-point route creation.
-- Added Points and Freehand drawing modes.
-- Draw with one finger while using two fingers to pan, zoom or rotate the map.
-- Undo freehand routes one stroke at a time.
-- Redesigned walking and route-planning controls into a more compact layout.
-- Added collapsible location and Route Planning cards.
-- Added clearer Start and End route markers.
-- Kept Pause, Resume and Stop & Restore readily available during active walks.
-- Refined route preview, walking progress and map behaviour.
+Create a backup in 0.9.4 before installing 0.9.5 if you want to preserve favourites, history and supported settings. Restore that backup during the 0.9.5 migration flow.
 
-### Location compatibility
-
-- Added automatic coordinate correction for searched and selected locations in Mainland China.
-- Added Automatic, Off and Force Correction compatibility modes.
-- Correction is applied to the simulated device location while the selected map marker stays where the user chose it.
-- Manually entered coordinates are not automatically changed.
-
-### Sessions, updates and VPNs
-
-- Improved Stop & Restore guidance and real-location reacquisition messaging.
-- Stable update checks now ignore GitHub drafts and prereleases.
-- Updated Connection Health guidance for compatible Personal VPNs and Device VPN conflicts.
-- Restored an immutable packaged build timestamp so SideStore re-signing does not change the displayed build time.
-
-## Backup & Restore
-
-Backup & Restore is available from Settings.
-
-Backups include favourites, history, appearance, map style and location compatibility preferences.
-
-Pairing records, analytics consent, analytics identity, active-session recovery data and diagnostics are deliberately not included.
-
-Roam Control 0.9.5 will use a new app identifier. Users upgrading from 0.9.4 should create a fresh backup before moving to 0.9.5 and will need to pair the iPhone again afterward.
+Pairing information is deliberately excluded from backups, so the iPhone must be paired again.
 
 ## Distribution constraints
 

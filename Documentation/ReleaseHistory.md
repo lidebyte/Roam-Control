@@ -4,9 +4,27 @@ This page records the public evolution of Roam Control at a user-facing level.
 
 Older releases remain listed on GitHub for historical reference. Downloadable application assets are retained only for the current public release and, where appropriate, the immediately previous stable release.
 
-## 0.9.4 - Build 74
+## 0.9.5 - Build 91
 
 Current stable public release.
+
+Released 3 October 2026.
+
+- Major visual redesign across Roam Control.
+- Added Driving and Cycling route modes.
+- Added Joystick free movement.
+- Added smoother simulated movement and improved map following.
+- Added GPX route import and export.
+- Added Miles/Kilometres route units and mph/km/h display.
+- Added the dedicated 0.9.4 migration and backup/restore flow.
+- Improved pairing readiness, expiry recovery and interrupted-session recovery.
+- Redesigned Connection Health, Backup & Restore and Privacy Details.
+- Added the anonymous country-level install count with updated privacy disclosure.
+- Fixed future semantic-version update handling.
+
+## 0.9.4 - Build 74
+
+Previous stable public release.
 
 Released 26 September 2026.
 

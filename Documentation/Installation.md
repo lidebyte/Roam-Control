@@ -19,7 +19,9 @@ Roam Control is not distributed through the App Store or TestFlight. Public beta
 
 Free Apple accounts normally require sideloaded apps to be refreshed within seven days and limit the number of simultaneously active apps/App IDs. These are Apple signing limits, not Roam Control subscriptions.
 
-When updating, install the newer IPA over the existing copy. Deleting the app first also deletes its local settings and may require pairing again.
+For ordinary updates that keep the same app identifier, install the newer IPA over the existing copy rather than deleting the app first.
+
+**Roam Control 0.9.5 is a one-time exception for users coming from 0.9.4.** Version 0.9.5 uses the new `com.roamcontrol` app identifier, so existing 0.9.4 app data does not automatically carry across. Before installing 0.9.5, create a backup in **Settings > Backup & Restore** if you want to preserve favourites, history and supported settings. Restore that backup during the 0.9.5 migration flow. Pairing must be completed again.
 
 
 ## Install with LiveContainer

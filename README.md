@@ -9,13 +9,13 @@
 </p>
 
 <p align="center">
-  <strong>Current release:</strong> 0.9.4 Build 74 · <strong>Requires:</strong> iOS 27+
+  <strong>Current release:</strong> 0.9.5 Build 91 · <strong>Requires:</strong> iOS 27+
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/iOS-27%2B-blue" alt="iOS 27+">
   <img src="https://img.shields.io/badge/UI-SwiftUI-orange" alt="SwiftUI">
-  <img src="https://img.shields.io/badge/Current-0.9.4-lightgrey" alt="Current release 0.9.4">
+  <img src="https://img.shields.io/badge/Current-0.9.5-lightgrey" alt="Current release 0.9.5">
   <img src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-blue" alt="PolyForm Noncommercial 1.0.0">
 </p>
 
@@ -23,7 +23,7 @@
 
 Roam Control is an iPhone app for location-based development, quality assurance and responsible personal testing on a device you own and control.
 
-It supports fixed reported locations, simulated walking routes, favourites, history, on-device pairing and guided LocalDevVPN-compatible sessions.
+It supports fixed reported locations, Walking, Driving and Cycling routes, Joystick movement, GPX import/export, favourites, history, on-device pairing and guided LocalDevVPN-compatible sessions.
 
 Roam Control is distributed as a prebuilt IPA. The application source code is not publicly distributed.
 
@@ -52,11 +52,15 @@ Roam Control is distributed as a prebuilt IPA. The application source code is no
 
 - Search for places, enter coordinates or select a position on the map.
 - Start and update a fixed reported location.
-- Preview and simulate Apple Maps walking routes, or build routes manually with point-by-point and freehand drawing.
-- Pause, resume, reverse or redirect an active walk.
+- Simulate Apple Maps Walking, Driving and Cycling routes.
+- Build manual routes with point-by-point or freehand drawing.
+- Import and export GPX routes.
+- Move freely with the Joystick without creating a route.
+- Pause, resume, reverse or redirect active route sessions.
+- Choose Miles/Kilometres and mph/km/h route units.
 - Save favourites and revisit recent locations.
 - Restore the iPhone's real location when testing is finished.
-- Recover from interrupted fixed or walking sessions.
+- Recover from interrupted fixed, route or Joystick sessions.
 - Guided LocalDevVPN setup for Wi-Fi and mobile-data use.
 - Light, dark and automatic appearance.
 - Dynamic Type, VoiceOver and Reduce Motion support.
@@ -66,6 +70,20 @@ Roam Control is distributed as a prebuilt IPA. The application source code is no
 Roam Control is not distributed through the App Store or TestFlight.
 
 Download the IPA attached to the current GitHub Release and install it using SideStore, or import it into LiveContainer.
+
+> [!IMPORTANT]
+> **Upgrading from Roam Control 0.9.4? Back up before installing 0.9.5.**
+>
+> Roam Control 0.9.5 uses a new app identifier, so your existing 0.9.4 app data will **not automatically carry across**.
+>
+> Before installing 0.9.5, open Roam Control 0.9.4 and create a backup from **Settings > Backup & Restore** if you want to preserve your favourites, history and supported settings.
+>
+> After installing 0.9.5, choose **Restore Backup** during the migration flow.
+>
+> Pairing information is not included in backups, so this iPhone will need to be paired again.
+>
+> **If you install 0.9.5 without creating a backup first, Roam Control cannot automatically recover those items from the old app.**
+
 
 For LiveContainer installs, **Fix Local Notifications must be enabled before Roam Control's first run** so the pairing notification can be delivered correctly.
 
@@ -88,9 +106,9 @@ Only download Roam Control from the official GitHub repository. Unofficial mirro
 
 ## Privacy
 
-Locations, searches, favourites, history, walking routes and pairing records remain on the iPhone.
+Locations, searches, favourites, history, route content and pairing records remain on the iPhone.
 
-Anonymous usage statistics are optional and off by default. See the [Privacy Policy](Documentation/Privacy.md) for the exact information that may be reported when sharing is enabled.
+Anonymous Usage Statistics are optional and off by default. Separately, Roam Control 0.9.5 and later sends one anonymous install-count request per installation to estimate aggregate country-level installs. See the [Privacy Policy](Documentation/Privacy.md) for the exact details.
 
 ## Responsible use
 
