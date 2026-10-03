@@ -57,6 +57,8 @@ Create a backup in 0.9.4 before installing 0.9.5 if you want to preserve favouri
 
 Pairing information is deliberately excluded from backups, so the iPhone must be paired again.
 
+See the [0.9.5 Migration & SideStore FAQ](Migration095.md) for App ID, active-app slot, expiry and backup questions.
+
 ## Distribution constraints
 
 SideStore and free Apple accounts are subject to Apple's app-count and seven-day refresh limits. Pairing and location sessions require a physical iPhone.

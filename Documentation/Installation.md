@@ -17,11 +17,13 @@ Roam Control is not distributed through the App Store or TestFlight. Public beta
 4. Open Roam Control and complete its introduction and device-pairing flow.
 5. Open LocalDevVPN and enable its local tunnel before starting a location.
 
-Free Apple accounts normally require sideloaded apps to be refreshed within seven days and limit the number of simultaneously active apps/App IDs. These are Apple signing limits, not Roam Control subscriptions.
+With a free Apple Account, SideStore documents two separate signing limits: up to 3 active apps at one time, including SideStore, and up to 10 App IDs registered within a 7-day period. These are Apple signing limits, not Roam Control subscriptions.
 
 For ordinary updates that keep the same app identifier, install the newer IPA over the existing copy rather than deleting the app first.
 
 **Roam Control 0.9.5 is a one-time exception for users coming from 0.9.4.** Version 0.9.5 uses the new `com.roamcontrol` app identifier, so existing 0.9.4 app data does not automatically carry across. Before installing 0.9.5, create a backup in **Settings > Backup & Restore** if you want to preserve favourites, history and supported settings. Restore that backup during the 0.9.5 migration flow. Pairing must be completed again.
+
+For questions about the old and new App IDs, active app slots, App ID expiry and restoring 0.9.4 data, see the [0.9.5 Migration & SideStore FAQ](Migration095.md).
 
 
 ## Install with LiveContainer

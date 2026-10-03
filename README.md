@@ -83,6 +83,8 @@ Download the IPA attached to the current GitHub Release and install it using Sid
 > Pairing information is not included in backups, so this iPhone will need to be paired again.
 >
 > **If you install 0.9.5 without creating a backup first, Roam Control cannot automatically recover those items from the old app.**
+>
+> See the [0.9.5 Migration & SideStore FAQ](Documentation/Migration095.md) for App ID, active-app slot and migration questions.
 
 
 For LiveContainer installs, **Fix Local Notifications must be enabled before Roam Control's first run** so the pairing notification can be delivered correctly.
@@ -94,6 +96,7 @@ Only download Roam Control from the official GitHub repository. Unofficial mirro
 ## Documentation
 
 - [Installation](Documentation/Installation.md)
+- [0.9.5 Migration & SideStore FAQ](Documentation/Migration095.md)
 - [User Guide](Documentation/UserGuide.md)
 - [Using a Personal VPN](Documentation/PersonalVPN.md)
 - [VPN Compatibility](Documentation/VPNCompatibility.md)
