@@ -100,6 +100,7 @@ Only download Roam Control from the official GitHub repository. Unofficial mirro
 - [Advanced: Self-hosted IKEv2 on Linux](Documentation/SelfHostedIKEv2.md)
 - [Current Release](Documentation/CurrentRelease.md)
 - [Release History](Documentation/ReleaseHistory.md)
+- [Download History](Documentation/DownloadHistory.md)
 - [Privacy](Documentation/Privacy.md)
 - [Responsible Use](Documentation/ResponsibleUse.md)
 - [Security Policy](SECURITY.md)
