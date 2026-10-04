@@ -2,11 +2,24 @@
 
 This page records the public evolution of Roam Control at a user-facing level.
 
-Older releases remain listed on GitHub for historical reference. Downloadable application assets are retained only for the current public release and, where appropriate, the immediately previous stable release.
+Older releases remain listed on GitHub for historical reference. Roam Control keeps the current stable IPA available and may retain an older IPA where it is still required for migration compatibility.
+
+## 0.9.6 - Build 92
+
+Current stable public release.
+
+Released 4 October 2026.
+
+- Carries forward all user-facing changes introduced in 0.9.5.
+- Improved backup restore and backup import compatibility in affected signing environments.
+- Improved GPX import compatibility in affected signing environments.
+- Reworked file importing around a copy-based document picker.
+- Build timestamps are now generated automatically for each actual build.
+- The GitHub release title retains `Build 92` so Roam Control 0.9.4 can recognise and offer the update.
 
 ## 0.9.5 - Build 91
 
-Current stable public release.
+Previous stable public release.
 
 Released 3 October 2026.
 
@@ -24,7 +37,7 @@ Released 3 October 2026.
 
 ## 0.9.4 - Build 74
 
-Previous stable public release.
+Older stable release retained temporarily for migration.
 
 Released 26 September 2026.
 

@@ -4,6 +4,29 @@ Public-facing changes to Roam Control are recorded here.
 
 Detailed internal engineering notes are maintained privately.
 
+## 0.9.6 - Build 92
+
+Released 4 October 2026.
+
+### File import compatibility
+
+- Improved backup restore and backup import compatibility on some re-signed and paid-certificate installations.
+- Improved GPX import compatibility in the same environments.
+- Replaced the affected SwiftUI file-import paths with a copy-based document picker.
+- This avoids cases where selecting a file could leave the Files picker open without returning the selected document to Roam Control.
+
+### Build metadata
+
+- Build date metadata is now generated automatically during every app build.
+- New development or release builds no longer inherit an older manually stored build timestamp.
+
+### Update compatibility
+
+- The GitHub release title includes `Build 92` so the older Roam Control 0.9.4 updater can recognise 0.9.6 and show its update prompt.
+- Roam Control 0.9.5 and later use semantic-version update detection.
+
+All user-facing features introduced in 0.9.5 remain part of 0.9.6 and are documented below.
+
 ## 0.9.5 - Build 91
 
 Released 3 October 2026.
