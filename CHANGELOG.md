@@ -4,6 +4,19 @@ Public-facing changes to Roam Control are recorded here.
 
 Detailed internal engineering notes are maintained privately.
 
+## 0.9.7 - Build 96
+
+Released 8 October 2026.
+
+### Background and mobile-data reliability
+
+- Improved native connection handling for LocalDevVPN.
+- Corrected interface selection for device connections when a separate Personal VPN is also active.
+- Improved reliability of location sessions during tested background and mobile-data scenarios.
+- Verified fixed-location, Walking, Driving and Cycling behaviour, including LocalDevVPN reconnection.
+
+This maintenance update does not introduce new features or change the pairing implementation.
+
 ## 0.9.6 - Build 92
 
 Released 4 October 2026.

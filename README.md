@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <strong>Current release:</strong> 0.9.6 Build 92 · <strong>Requires:</strong> iOS 27+
+  <strong>Current release:</strong> 0.9.7 Build 96 · <strong>Requires:</strong> iOS 27+
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/iOS-27%2B-blue" alt="iOS 27+">
   <img src="https://img.shields.io/badge/UI-SwiftUI-orange" alt="SwiftUI">
-  <img src="https://img.shields.io/badge/Current-0.9.6-lightgrey" alt="Current release 0.9.6">
-  <img src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-blue" alt="PolyForm Noncommercial 1.0.0">
+  <img src="https://img.shields.io/badge/Current-0.9.7-lightgrey" alt="Current release 0.9.7">
+  <img src="https://img.shields.io/badge/License-Proprietary-lightgrey" alt="Proprietary">
 </p>
 
 ## About
@@ -72,17 +72,17 @@ Roam Control is not distributed through the App Store or TestFlight.
 Download the IPA attached to the current GitHub Release and install it using SideStore, or import it into LiveContainer.
 
 > [!IMPORTANT]
-> **Upgrading from Roam Control 0.9.4? Back up before installing 0.9.6.**
+> **Upgrading from Roam Control 0.9.4? Back up before installing 0.9.7.**
 >
-> Roam Control 0.9.6 uses the new app identifier, so your existing 0.9.4 app data will **not automatically carry across**.
+> Roam Control 0.9.7 uses the new app identifier, so your existing 0.9.4 app data will **not automatically carry across**.
 >
-> Before installing 0.9.6, open Roam Control 0.9.4 and create a backup from **Settings > Backup & Restore** if you want to preserve your favourites, history and supported settings.
+> Before installing 0.9.7, open Roam Control 0.9.4 and create a backup from **Settings > Backup & Restore** if you want to preserve your favourites, history and supported settings.
 >
-> After installing 0.9.6, choose **Restore Backup** during the migration flow.
+> After installing 0.9.7, choose **Restore Backup** during the migration flow.
 >
 > Pairing information is not included in backups, so this iPhone will need to be paired again.
 >
-> **If you install 0.9.6 without creating a backup first, Roam Control cannot automatically recover those items from the old app.**
+> **If you install 0.9.7 without creating a backup first, Roam Control cannot automatically recover those items from the old app.**
 >
 > See the [0.9.5 Migration & SideStore FAQ](Documentation/Migration095.md) for App ID, active-app slot and migration questions.
 

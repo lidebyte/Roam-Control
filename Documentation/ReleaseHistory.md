@@ -4,9 +4,20 @@ This page records the public evolution of Roam Control at a user-facing level.
 
 Older releases remain listed on GitHub for historical reference. Roam Control keeps the current stable IPA available and may retain an older IPA where it is still required for migration compatibility.
 
-## 0.9.6 - Build 92
+## 0.9.7 - Build 96
 
 Current stable public release.
+
+Released 8 October 2026.
+
+- Improved background location-session connection reliability.
+- Improved mobile-data operation with LocalDevVPN.
+- Corrected native interface binding when LocalDevVPN and a Personal VPN operate simultaneously.
+- No new user-facing features or pairing changes.
+
+## 0.9.6 - Build 92
+
+Previous stable public release.
 
 Released 4 October 2026.
 
