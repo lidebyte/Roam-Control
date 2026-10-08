@@ -8,6 +8,7 @@ Roam Control keeps the current stable IPA available and may retain an older IPA 
 
 | Version | Build | Released | IPA retired | Final IPA downloads |
 | --- | ---: | --- | --- | ---: |
+| 0.9.4 | 74 | 26 September 2026 | 8 October 2026 | 1,069 |
 | 0.9.5 | 91 | 3 October 2026 | 4 October 2026 | 245 |
 | 0.9.3 | 63 | 22 September 2026 | 3 October 2026 | 1,052 |
 
